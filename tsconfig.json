@@ -1,0 +1,18 @@
+{
+  "db": {
+    "user": "PicSecure",
+    "password": "Diller12345.com",
+    "server": "picsecure.database.windows.net",
+    "database": "PicSecure"
+
+  
+  },
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true
+  }
+}

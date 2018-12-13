@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:#416aa3; 
+}
+#wrapper
+{
+    width: 2700px;
+    height: 1080px;
+}
+// header starts
+header
+{
+    width: 2700px;
+    height: 100px;
+}
+header img
+{
+    float: left;
+    margin: 20px 0 0 20px; 
+}
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: #ffffff;
+    float: left;
+    margin: 75px 0 0 10px;
+}
+#activatebutton
+{
+    float: left;
+    margin: 0 0 0 2133px;
+    width: 150px;
+    height: 50px;
+    background-color:green; 
+}
+#deactivatebutton
+{
+    float: left;
+    margin: 0 0 0 2133px;
+    width: 150px;
+    height: 50px;
+    background-color:red;
+}
+// header ends
+// section starts
+section
+{
+    width: 2700px;
+    height: 980px;
+    float: left;   
+}
+//folders start
+.sfolder
+{
+    background: none;
+    border: none;
+}
+#folderbox
+{
+    width:2700px;
+    height:280px;
+    float: left;
+    overflow:auto;
+    border-bottom-width:1px;
+    border-bottom-color: #ffffff;
+    border-bottom-style: solid; 
+}
+//scrollbar start
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background: #416aa3;
+}
+::-webkit-scrollbar-thumb
+{
+background: #888888;
+}
+//scrollbar ends
+h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:45px;
+    color: #ffffff;
+    padding:20px 0 0 35px;
+}
+.folders
+{
+    width:220px;
+    height:220px;
+    float:left;
+    margin:20px 0 0 40px;
+}
+.imgfolders
+{
+    width:130px;
+    height:130px;
+    float: left;
+}
+.foldername
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:#ffffff;
+    float:left;
+    width: 130px;
+    text-align:center;
+    margin:-20px 0 0 0;
+    text-overflow: clip;
+}
+#newfolderbutton
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px; 
+    color: #000000;
+    border-radius:50px;
+    border-color:#000000;
+    background-color:lightgray;   
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin: 70px 0 0 0;
+}
+//folders end
+//not sorted imgs
+#notsortedbox
+{
+    width:2700px;
+    height:680px;
+    float: left;
+    overflow:auto; 
+}
+h5
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+    color: #ffffff;
+    padding:20px 0 0 35px;
+    float: left;
+}
+#searchbar
+{
+    float: left;
+    margin: 32px 0 0 20px;
+    border-radius:6px;
+    border-color:#888888; 
+    border-width:3px;   
+    border-style:solid; 
+}
+#searchbutton
+{
+    float: left;
+    margin: 34px 0 0 20px;
+    border-radius:5px; 
+    border-color:#888888; 
+    border-width:2px;   
+    border-style:solid; 
+}
+#eksportimgbutton
+{
+    float: left;
+    margin: 34px 0 0 20px;
+    border-radius:5px; 
+    border-color:#888888; 
+    border-width:2px;   
+    border-style:solid; 
+}
+#deleteimgbutton
+{
+    float: left;
+    margin: 34px 0 0 20px;
+    border-radius:5px; 
+    border-color:#888888; 
+    border-width:2px;   
+    border-style:solid; 
+}
+.notsortedimgs
+{
+    width:220px;
+    height:220px;
+    float:left;
+    margin:20px 0 0 40px;
+}
+.notsortedimg
+{
+    width:130px;
+    height:130px;
+    float: left;
+}
+.notsortedname
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:#ffffff;
+    float:left;
+    width: 130px;
+    text-align:center;
+    margin:-20px 0 0 0;
+    text-overflow: clip;
+}
+//not sorted img end
+// section ends
